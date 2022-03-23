@@ -32,6 +32,15 @@ export const ContainerSkills = styled.article`
         &:first-child{
             margin-left: 0px;
         }
+        :nth-child(1) {animation: 1s linear 0.1s infinite alternate ${rotate};}
+        :nth-child(2) {animation: 1s linear 0.3s infinite alternate ${rotate};}
+        :nth-child(3) {animation: 1s linear 0.6s infinite alternate ${rotate};}
+        :nth-child(4) {animation: 1s linear 0.9s infinite alternate ${rotate};}
+        :nth-child(5) {animation: 1s linear 1.2s infinite alternate ${rotate};}
+        :nth-child(6) {animation: 1s linear 1.5s infinite alternate ${rotate};}
+        :nth-child(7) {animation: 1s linear 1.8s infinite alternate ${rotate};}
+        :nth-child(8) {animation: 1s linear 2.1s infinite alternate ${rotate};}
+        :nth-child(9) {animation: 1s linear  2.4s  infinite alternate ${rotate};}
     }
 `
 
