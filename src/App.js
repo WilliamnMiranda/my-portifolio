@@ -20,7 +20,6 @@ function App() {
   return (
     <>
       <GlobalStyle/>
-      <Header/>
       <Sobre/>
       <Projects/>
       <TimeLine/>

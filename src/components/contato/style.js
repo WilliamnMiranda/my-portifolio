@@ -4,6 +4,7 @@ export const ContainerContato = styled.section`
    margin: 0 auto;
     display: flex;
     width: 70%;
+    margin-bottom: 20px;
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
