@@ -5,6 +5,7 @@ import Header from "./components/header/index";
 import Projects from "./components/projetos/index";
 import TimeLine from "./components/educaçao/index";
 import Skills from './components/tecnologias/index'
+import Contato from "./components/contato/index";
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
@@ -24,6 +25,7 @@ function App() {
       <Projects/>
       <TimeLine/>
       <Skills/>
+      <Contato/>
     </> 
   );
 }
