@@ -1,18 +1,19 @@
 import React from "react"
 import Sobre from "./components/sobre/index";
 import { createGlobalStyle } from 'styled-components';
-import Header from "./components/header/index";
 import Projects from "./components/projetos/index";
 import TimeLine from "./components/educaçao/index";
 import Skills from './components/tecnologias/index'
 import Contato from "./components/contato/index";
+import Cc from './imgs/cc.gif'
 const GlobalStyle = createGlobalStyle`
-  body {
+  body{
     margin: 0;
     padding: 0;
-    background-color: #0d0d0d;
     font-family: Open-Sans, Helvetica, Sans-Serif;
     color:white;
+    background-color: black;
+    background-image:url(${Cc});
   }
 `;
 

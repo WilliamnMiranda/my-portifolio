@@ -14,9 +14,15 @@ const Contato = () => {
        <p>Contato</p>
      </TituloMeusContatos>
    <Contatos>
-        <img src = {GitHub} alt = "GitHub"/>
-        <img src = {Linkedin} alt = "Linkedin"/>
-        <img src = {Wpp} alt = "Wpp"/>
+        <a href="https://github.com/WilliamnMiranda" target="_blank" rel="noreferrer">
+          <img src = {GitHub} alt = "GitHub"/>
+        </a>
+        <a href="https://www.linkedin.com/in/williamnm/" target="_blank">
+          <img src = {Linkedin} alt = "Linkedin"/>
+        </a>
+        <a href="https://contate.me/williamdev" target="_blank">
+          <img src = {Wpp} alt = "Wpp"/>
+        </a>
    </Contatos>
  </ContainerContato>
   )
