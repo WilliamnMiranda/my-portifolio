@@ -8,6 +8,9 @@ export const ContainerProjects = styled.section`
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
+    @media (max-width : 800px){
+        width: 100%;
+    }
 `
 export const TituloMeusProjetos = styled.div`
     margin-bottom: 30px;
