@@ -41,6 +41,23 @@ export const ContainerSkills = styled.article`
         :nth-child(7) {animation: 1s linear 1.8s infinite alternate ${rotate};}
         :nth-child(8) {animation: 1s linear 2.1s infinite alternate ${rotate};}
         :nth-child(9) {animation: 1s linear  2.4s  infinite alternate ${rotate};}
+        @media (max-width : 800px){
+        width: 60px;
+        height: 60px;
+        :nth-child(1) {animation: none}
+        :nth-child(2) {animation: none}
+        :nth-child(3) {animation: none}
+        :nth-child(4) {animation: none}
+        :nth-child(5) {animation: none}
+        :nth-child(6) {animation: none}
+        :nth-child(7) {animation: none}
+        :nth-child(8) {animation: none}
+        :nth-child(9) {animation: none}
+    }
+    }
+    @media (max-width : 800px){
+        flex-wrap: wrap;
+        height: 300px;
     }
 `
 
