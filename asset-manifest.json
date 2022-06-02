@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/portifolio/static/js/main.11c9db65.js",
+    "static/media/cc.gif": "/portifolio/static/media/cc.d57c762fc073b16f5e1a.gif",
+    "static/media/perfil.jpg": "/portifolio/static/media/perfil.bc56bafeb5e4609b6d90.jpg",
+    "static/media/nodejs-1.svg": "/portifolio/static/media/nodejs-1.52cbf9a89f44655c0375b9e9f88bf9c5.svg",
+    "static/media/express-109.svg": "/portifolio/static/media/express-109.daf92d080f6848673649ffc3e5b8e714.svg",
+    "static/media/mongoose-1.svg": "/portifolio/static/media/mongoose-1.e31757079b5965b571bd1b5682d7afe7.svg",
+    "static/media/react-2.svg": "/portifolio/static/media/react-2.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/whatsapp-3.svg": "/portifolio/static/media/whatsapp-3.f704cae638fb36c7b0f22133a36462b0.svg",
+    "static/media/github-icon-1.svg": "/portifolio/static/media/github-icon-1.e0d7d7254ac0545743fc7af09c1e977b.svg",
+    "static/media/bootstrap-4.svg": "/portifolio/static/media/bootstrap-4.997c463dca63c915b9a51f1caedef8e1.svg",
+    "static/media/mongodb-icon-1.svg": "/portifolio/static/media/mongodb-icon-1.1aca075d5cce0819fea7ea0902d94ce4.svg",
+    "static/media/linkedin-icon.svg": "/portifolio/static/media/linkedin-icon.f10c9de5cd3d33321b434c21192b499d.svg",
+    "index.html": "/portifolio/index.html",
+    "static/media/css-3.svg": "/portifolio/static/media/css-3.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html-1.svg": "/portifolio/static/media/html-1.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "static/media/javascript-1.svg": "/portifolio/static/media/javascript-1.b879f838faf1cb951d1c2230fd933a39.svg",
+    "main.11c9db65.js.map": "/portifolio/static/js/main.11c9db65.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.11c9db65.js"
+  ]
+}
