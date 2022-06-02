@@ -7,6 +7,11 @@ align-items: center;
 justify-content: center;
 flex-direction:column;
 width: 100%;
+max-width: 100%;
+overflow: hidden;
+p{
+    display: none;
+}
 `
 export const Icon = styled.div`
     font-size:4.0em;
