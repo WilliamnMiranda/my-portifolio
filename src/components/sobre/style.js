@@ -8,6 +8,12 @@ export const ContainerGeralSobre = styled.article`
     color:white;
     display: flex;
     width: 70%;
+    @media (max-width: 1300px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+    }
     @media (max-width : 800px){
         flex-direction: column;
         width: 100%;
@@ -17,6 +23,9 @@ export const ContainerFotoInformacoes = styled.div`
     display: flex;
     justify-content: center;
     width: 50%;
+    @media (max-width : 1300px){
+        width: 100%;
+    }
     @media (max-width : 800px){
         width: 100%;
     }
@@ -31,6 +40,13 @@ export const ContainerFoto = styled.img`
 `
 export const ContainerInformacoes = styled.div`
     width: 50%;
+    @media (max-width : 1300px){
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     @media (max-width : 800px){
         display: flex;
         justify-content: center;
