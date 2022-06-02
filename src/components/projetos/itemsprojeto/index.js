@@ -1,10 +1,10 @@
 import React from 'react'
 import { Item } from './style'
-const ItemProjeto = () => {
+const ItemProjeto = ({item}) => {
+  console.log(item)
   return (
     <Item>
-a
-
+        <img alt={item.alt} src={item.src} />
     </Item>
   )
 }

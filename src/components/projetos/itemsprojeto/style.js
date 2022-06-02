@@ -12,4 +12,8 @@ margin-bottom: 20px;
         width: 95%;
         margin-bottom: 20px;
     }
+img{
+    width: 100%;
+    height: 100%;
+}
 `
