@@ -17,7 +17,7 @@ const Skills = () => {
             <Icon>             
              <FaDev/>
             </Icon>           
-            <p>Projects</p>
+            <p>Tecnologias</p>
           </TituloMeusProjetos>
         <ContainerSkills>
             <img src = {Html} alt = "html"/>
