@@ -118,6 +118,30 @@ export default function ItemTimeLine() {
         </TimelineContent>
       </TimelineItem>
 
+      <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: 'auto 0' }}
+          align="right"
+          variant="body2"
+          color="white"
+        >
+          03/2022 | 06/2020
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector />
+          <TimelineDot sx={dot}>
+            <MdAccountBalance sx={{fontSize : "4.0em"}} />
+          </TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent sx={{ py: '30px', px: 2 }}>
+          <Typography variant="h6" component="span">
+              HomeJobs
+          </Typography>
+          <Typography>Desenvolvedor Front-End JR</Typography>
+        </TimelineContent>
+      </TimelineItem>
+
     </Timeline>
   );
 }
